@@ -1,0 +1,98 @@
+.home {
+  background-color: black;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.home-container {
+  position: relative;
+  width: 100%;
+  max-width: 26.5vw; /* Adjust the max-width to fit a phone-sized screen */
+  background: linear-gradient(to top, #54a660, #ffffff);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 600px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.home-container::-webkit-scrollbar {
+  display: none;
+}
+
+.welcome-message {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.new-playlist-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #FFFFFF;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.new-playlist-button:hover {
+  background-color: #cbcbcb;
+}
+
+.playlists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 10px;
+}
+
+.playlist-box {
+  background-color: #FFFFFF;
+  color: black;
+  padding: 20px;
+  border-radius: 10px; /* Round the edges */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px; /* Increase the font size */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add box shadow */
+  height: 80px; /* Adjust height to fit six per screen */
+  margin: 5px;
+}
+
+.playlist-box:hover {
+  background-color: #cbcbcb;
+}
+
+.color-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.navbar {
+  position: fixed;
+  bottom: 6vh;
+  width: 100%;
+  max-width: 26.5vw;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.navbar-icon {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}

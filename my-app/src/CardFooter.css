@@ -1,0 +1,10 @@
+.cardFooter {
+    position: relative;
+    color: white;
+    bottom: 50px;
+    display: flex;
+}
+.cardFooter_text {
+    flex : 1;
+}
+

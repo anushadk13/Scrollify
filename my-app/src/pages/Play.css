@@ -1,0 +1,28 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.play {
+  background-color: black;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.play_cards {
+  position: relative;
+  height: 600px;
+  overflow: scroll;
+  width: 80%;
+  max-width: 500px;
+  scroll-snap-type: y mandatory;
+}
+
+.play_cards::-webkit-scrollbar {
+  display: none;
+}
+
+.play_cards {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

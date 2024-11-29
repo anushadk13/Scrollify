@@ -1,0 +1,91 @@
+html {
+  background-color: black;
+}
+
+.playlist {
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(to bottom, #d5f7cc, #eaf7eb);
+  border-radius: 20px;
+  max-width: 300px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  min-width: 26.5vw;
+  height: 92vh;
+  position: relative;
+}
+
+.playlist h1 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  padding-bottom: 20px;
+}
+
+.playlist p {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 0;
+}
+
+.playlist-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 15px auto;
+  display: block;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  cursor: pointer;
+}
+
+
+.play-button {
+  width: 50px;
+  height: 30px;
+  font-size: 1.2em;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+.play-button:hover, .shuffle-button:hover {
+  background-color: #f0f0f0;
+}
+
+.add-button {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 1.5em;
+  color: #666;
+  background-color: #fff;
+  width: 90%;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.question-button {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1.7em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.question-button:hover {
+  background-color: #f7f7f7;
+}

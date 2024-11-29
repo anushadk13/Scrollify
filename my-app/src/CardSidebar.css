@@ -1,0 +1,13 @@
+.cardSidebar {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    color: white;
+}
+
+.cardSidebar_button {
+    padding: 20px;
+    text-align:center;
+    height: 40px;
+    width: 40px;
+}
